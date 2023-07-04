@@ -1,0 +1,32 @@
+.page_list{
+  display: flex;
+}
+.page__item{
+  list-style: none;
+}
+.page__container{
+  margin: auto;
+}
+
+
+@media only screen and (max-width: 1140px) {
+  .container{
+    max-width: 725px;
+  }
+  .page__container{
+    margin-right: auto;
+  }
+  .page_wrapper{
+    margin-left: -390px;
+  }
+}
+@media only screen and (max-with: 725px) {
+  .container{
+    max-width: 325px;
+  }
+
+  .page_list{
+    display: none;
+  }
+
+}
